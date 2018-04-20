@@ -9,24 +9,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Google site verification tag -->
-    <meta name="google-site-verification" content="MDxDCoHq0DTBgwUXoywukVIYRXQBzyNIDqcNTY2uVy8" />
+    
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta class="foundation-mq">
 
-		<!-- If Site Icon isn't set in customizer -->
-		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
+
 			<!-- Icons & Favicons -->
-			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
-			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-icon-touch.png" rel="apple-touch-icon" />
-			<!--[if IE]>
-				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-			<![endif]-->
-			<meta name="msapplication-TileColor" content="#f01d4f">
-			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/win8-tile-icon.png">
-	    	<meta name="theme-color" content="#121212">
-	    <?php } ?>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
 
 		  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
